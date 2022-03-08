@@ -1,0 +1,153 @@
+body{
+    margin: auto;
+}
+a{
+    text-decoration: none
+}
+/* Header Start */
+header{
+    height:60px;
+    background-color:#e09c83
+}
+
+#icon{
+    float:left
+}
+
+.Theam {
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.darkmode{
+    background-color: black;
+    color: white;
+}
+
+.Mode-btn{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    position: relative;
+    top: -18px;
+    border: 1px solid gray;
+}
+
+.Mode-btn-light{
+    background-color: white;
+    color: black;
+}
+
+#social{
+    float:right
+}
+
+.slogo{
+    height: 50px;
+    width: 50px;
+}
+.heading{
+    text-align: center;
+}
+.mainContent{
+    height:700px;
+    width:75%;
+    margin-left:13%
+}
+#filter{
+    height:500px;
+    width:22%;
+    border:5px groove gray;
+    float: left;
+}
+#filter>span{
+    display: block;
+}
+
+#filter>h2{
+    text-align: center;
+}
+
+.star{
+    color: gold;
+}
+
+.cost{
+    width: 20%;
+}
+
+#card{
+    height:700px;
+    width:75%;
+    /* border:2px solid orange; */
+    margin-left:2%;
+    float: left;
+}
+
+.item{
+    /* border: 2px solid red; */
+    height: 30%;
+    margin-bottom: 25px;
+}
+
+.highlight{
+    font-weight: bold;
+    color: gray;
+}
+
+.Img{
+    /* border: 2px solid green; */
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.Img>img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.Content{
+    padding: 5px 5px 5px 20px;
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid black; */
+    float: right;
+
+}
+
+.Content>button{
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+    width: 100px;
+    height: 50px;
+}
+
+.Content>h2{
+    margin: 2px;
+}
+
+
+/* footer Start */
+footer{
+    height:200px;
+    background-color:#e09c83
+}
+
+.foot1{
+    width:35%;
+    height:120px;
+    float: left;
+    border-right:2px solid white
+}
+
+a{
+    color: white;
+}
